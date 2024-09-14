@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-const thumbnailSrc:string = "https://us.loropiana.com/medias/sys_master/root/h85/hbd/10003756318750/LP-RD-EXTRA-BAG-NOV2023-DESK-1920x1080-001.jpg"
+import thumbnailSrc from "./img/sample1.avif"
 export default function Thumbnail() {
     return (
         <div
