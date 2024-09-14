@@ -6,6 +6,14 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'hkkzipper.com',
             },
+            {
+                protocol: 'https',
+                hostname: 'png.pngtree.com',
+            },
+            {
+                protocol: 'https',
+                hostname: 'us.loropiana.com',
+            },
         ]
     }
 };
