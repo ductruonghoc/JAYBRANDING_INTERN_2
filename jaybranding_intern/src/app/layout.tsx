@@ -25,7 +25,7 @@ export default function RootLayout({
       <body
         className={`w-dvw
                     font-sans antialiased
-                    dark:bg-white dark:font-black
+                    dark:bg-white dark:text-black
                     overflow-x-hidden`}
       >
         {children}
