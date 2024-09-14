@@ -8,6 +8,7 @@ export default function Thumbnail() {
                         h-[766px] w-full`}>
             <Image
                 src={thumbnailSrc}
+                loading="lazy"
                 alt="Background"
                 width={1920/*Define render size important */} 
                 height={1080}
