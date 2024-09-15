@@ -31,7 +31,8 @@ export default function Thumbnail() {
             <div
                 className="relative top-0
                             flex justify-center
-                            w-full h-full">
+                            w-full h-full
+                            max-md:hidden">
                 <div
                     className="relative h-full 
                                 flex items-center gap-[59px]">
