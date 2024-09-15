@@ -60,7 +60,9 @@ export default function Thumbnail() {
                         <div
                             className="w-[798px]
                                         text-[16px] text-center">
-                            Thương hiệu dây khoá kéo HKK của Công ty TNHH Khóa kéo Hoàn Mỹ (HKK) đã gia nhập hàng loạt thị trường vốn được đánh giá là khó tính trong khu vực và trên thế giới. Chặng đường 31 năm của thương hiệu này là một hành trình nỗ lực không ngừng, với quyết tâm và tầm nhìn của những người lèo lái "con thuyền" HKK vươn ra biển lớn.
+                            {
+                                'Thương hiệu dây khoá kéo HKK của Công ty TNHH Khóa kéo Hoàn Mỹ (HKK) đã gia nhập hàng loạt thị trường vốn được đánh giá là khó tính trong khu vực và trên thế giới. Chặng đường 31 năm của thương hiệu này là một hành trình nỗ lực không ngừng, với quyết tâm và tầm nhìn của những người lèo lái "con thuyền" HKK vươn ra biển lớn.'
+                            }
                         </div>
                         <button
                             className="bg-white 
