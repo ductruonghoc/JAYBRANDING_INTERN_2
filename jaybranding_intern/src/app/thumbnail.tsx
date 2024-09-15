@@ -15,7 +15,8 @@ export default function Thumbnail() {
     return (
         <div
             className={`relative 
-                        h-[766px] w-full`}>
+                        md:h-[766px] w-full
+                        max-md:h-[589px]`}>
             <Image
                 src={thumbnailSrc}
                 loading="lazy"
