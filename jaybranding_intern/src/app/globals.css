@@ -25,3 +25,18 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .text-stroke {
+    -webkit-text-stroke: 1px rgb(212 212 216);
+  }
+
+  .button {
+    @apply bg-white 
+            flex gap-[10px] items-center 
+            border border-sky-700
+            py-[8px] px-[32px] 
+            text-[14px] text-sky-700 text-nowrap 
+            drop-shadow-[6px_6px_0_rgba(29,78,216,1)];
+  }
+}
