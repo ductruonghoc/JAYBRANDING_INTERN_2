@@ -31,6 +31,10 @@ body {
     -webkit-text-stroke: 1px rgb(212 212 216);
   }
 
+  .text-stroke-white {
+    -webkit-text-stroke: 1px white;
+  }
+
   .button {
     @apply bg-white 
             flex gap-[10px] items-center 

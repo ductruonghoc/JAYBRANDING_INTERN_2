@@ -2,6 +2,7 @@ import Header from "./header";
 import Thumbnail from "./thumbnail";
 import Contact from "./contact"
 import Introduce from "./Intro";
+import Products from "./products";
 
 export default function Component() {
   return (
@@ -13,6 +14,7 @@ export default function Component() {
         <Header />
         <Thumbnail></Thumbnail>
         <Introduce></Introduce>
+        <Products/>
       </div>
       <div
         className="fixed right-[22px] bottom-[22px]
