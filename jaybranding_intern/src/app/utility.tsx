@@ -19,7 +19,8 @@ export const LabelNumber = ({ text_stroke_color, no, line_height, text_color }:
     ]
     const text_stroke_color_class = [
         "text-stroke",
-        "text-stroke-white"
+        "text-stroke-white",
+        "text-stroke-sky-700"
     ]
     const text_color_class = [
         "text-white",
@@ -28,6 +29,7 @@ export const LabelNumber = ({ text_stroke_color, no, line_height, text_color }:
     const border_color_class = [
         "border-gray-200",
         "border-white",
+        "border-sky-700"
     ]
     return (
         <div

@@ -54,6 +54,7 @@ const Items_Component = () => {
                         className="relative
                                     flex items-end
                                     w-[338px] h-[516px]
+                                    cursor-pointer
                                     ">
                         <Image
                             loading="lazy"

@@ -35,6 +35,10 @@ body {
     -webkit-text-stroke: 1px white;
   }
 
+  .text-stroke-sky-700 {
+    -webkit-text-stroke: 1px rgb(3 105 161);
+  }
+
   .button {
     @apply bg-white 
             flex gap-[10px] items-center 
