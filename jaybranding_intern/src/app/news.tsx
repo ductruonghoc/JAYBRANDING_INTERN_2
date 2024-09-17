@@ -113,7 +113,8 @@ const Items_Component = () => {
             </div>
             <div
                 className="w-full
-                            flex justify-center">
+                            flex justify-center
+                            max-md:hidden">
                 <button
                     className="button">
                     <ArrowRightIcon
