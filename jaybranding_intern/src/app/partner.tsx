@@ -5,18 +5,21 @@ import { CustomArrowLeftIcon, CustomArrowRightIcon, LabelNumber } from "./utilit
 const Items_Component = () => {
     return (
         <div
-            className="w-[1144px] pt-[20px]
-                        flex flex-col gap-[20px]">
+            className="md:w-[1144px] md:pt-[20px]
+                        flex flex-col md:gap-[20px]
+                        max-md:w-full max-md:gap-[136px] max-md:pt-[136px]">
             <div
                 className="w-full
-                            flex flex-wrap gap-[20px]">
+                            flex md:flex-wrap md:gap-[20px]
+                            max-md:flex-col max-md:h-[210px] max-md:overflow-hidden max-md:gap-[136px]">
                 {
                     Array<string>(8).fill("//Logo//").map((_, idx) => (
                         <strong
-                            className="w-[255px] h-[96px]
+                            className="md:w-[255px] md:h-[96px]
                                         flex items-center justify-center
-                                        bg-white 
-                                        text-gray-200 text-nowrap text-[30px]"
+                                        md:bg-white 
+                                        text-gray-200 text-nowrap text-[30px]
+                                        max-md:h-[37px]"
                             key={idx}>
                             {_}
                         </strong>
@@ -40,9 +43,11 @@ const Label = () => {
         <div
             className="flex justify-between items-end">
             <div
-                className="relative">
+                className="relative
+                            max-md:w-full">
                 <div
-                    className="absolute top-0">
+                    className="absolute md:top-0
+                                max-md:top-[39px] max-md:w-full max-md:flex max-md:justify-center">
                     <LabelNumber
                         text_color={2}
                         text_stroke_color={2}
@@ -51,9 +56,10 @@ const Label = () => {
                 </div>
                 <div
                     className="relative
-                                ps-[108px] pt-[117px]
+                                md:ps-[108px] md:pt-[117px]
                                 flex gap-[10px]
-                                text-[40px] text-sky-700">
+                                text-[40px] text-sky-700
+                                max-md:pt-[103px] max-md:w-full max-md:justify-center">
                     <div>
                         ĐỐI TÁC
                     </div>
@@ -63,7 +69,8 @@ const Label = () => {
                 </div>
             </div>
             <strong
-                className="text-gray-400 text-[87px] leading-none">
+                className="text-gray-400 text-[87px] leading-none
+                            max-md:hidden">
                 Partners
             </strong>
         </div>
@@ -90,7 +97,8 @@ export default function PartnerComponent() {
             <div
                 className="relative
                             flex flex-col
-                            pb-[40px]">
+                            md:pb-[40px]
+                            max-md:w-full max-md:pb-[471px]">
                 <Label />
                 <Items_Component />
             </div>
