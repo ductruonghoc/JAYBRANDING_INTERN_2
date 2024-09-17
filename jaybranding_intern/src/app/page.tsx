@@ -4,6 +4,7 @@ import Contact from "./contact"
 import Introduce from "./Intro";
 import Products from "./products";
 import News from "./news";
+import PartnerComponent from "./partner";
 
 export default function Component() {
   return (
@@ -17,6 +18,7 @@ export default function Component() {
         <Introduce></Introduce>
         <Products/>
         <News/>
+        <PartnerComponent/>
       </div>
       <div
         className="fixed right-[22px] bottom-[22px]

@@ -63,7 +63,7 @@ const Items_Component = () => {
                                     <Image
                                         loading="lazy"
                                         className="w-full h-full 
-                                        object-fit"
+                                        object-cover"
                                         src={_}
                                         alt={`Item ${idx}`}/>
                                 </div>
