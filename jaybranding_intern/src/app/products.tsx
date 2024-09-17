@@ -45,7 +45,8 @@ const Items_Component = () => {
     return (
         <div
             className="flex flex-wrap gap-x-[68px] gap-y-[35px]
-                        w-[1150px]">
+                        md:w-[1150px]
+                        max-md:w-full max-md:flex-col max-md:items-center">
             {
                 items.map((_, idx) => (
                     <div
@@ -104,7 +105,8 @@ const Label = () => {
         <div
             className="relative">
             <div
-                className="absolute">
+                className="absolute
+                            max-md:flex max-md:justify-center max-md:w-full max-md:pt-[94px]">
                 <LabelNumber
                     text_color={1}
                     text_stroke_color={1}
@@ -112,18 +114,20 @@ const Label = () => {
                     line_height={1} />
             </div>
             <div
-                className="relative pt-[105px]
+                className="relative md:pt-[105px]
                         text-white
-                        flex flex-col gap-[10px]">
+                        flex flex-col gap-[10px]
+                        max-md:pt-[193px]">
                 <strong
-                    className="ms-[107px] 
-                                text-[40px]
-                                text-nowrap">
+                    className="md:ms-[107px] 
+                                md:text-[40px] text-nowrap
+                                max-md:text-center max-md:text-[22px]">
                     CÁC SẢN PHẨM HKK
                 </strong>
                 <div
-                    className="w-[651px]
-                                text-[16px] text-center">
+                    className="md:w-[651px]
+                                md:text-[16px] text-center
+                                max-md:text-[11px] max-md:w-[389px]">
                     {
                         "Biểu tượng của sự dẻo dai, bền bỉ, đại diện cho sức mạnh toàn thể công ty Sẵn sàng vượt qua mọi thử thách để đạt được tiêu chuẩn dài hạn là phát triển thương"
                     }
